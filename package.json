@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "browserify": "^13.0.0",
-    "standardized-audio-context": "git://github.com/bencpeters/standardized-audio-context.git#fix-angular2-dep"
+    "standardized-audio-context": "https://github.com/jtrotman10/standardized-audio-context.git"
   },
   "description": "An AngularJS wrapper for the Web Audio API's AudioContext",
   "devDependencies": {
@@ -33,13 +33,13 @@
     "mocha": "^2.4.1",
     "watchify": "^3.7.0"
   },
-  "homepage": "https://github.com/chrisguttandin/angular-audio-context",
+  "homepage": "https://github.com/jtrotman10/angular-audio-context",
   "license": "MIT",
   "main": "src/module.js",
   "name": "angular-audio-context",
   "repository": {
     "type": "git",
-    "url": "git://github.com/chrisguttandin/angular-audio-context.git"
+    "url": "git://github.com/jtrotman10/angular-audio-context.git"
   },
   "scripts": {
     "test": "grunt test"
